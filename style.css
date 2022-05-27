@@ -1,0 +1,667 @@
+ /* *{
+    box-sizing: border-box;
+}  */
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;   
+ } 
+
+ .container2{
+     display: grid;
+     grid-template-columns: 1fr 3fr 1.5fr;
+     align-items: center;
+     padding: .60em;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: gray;
+ }
+
+ .sign{
+     display: grid;
+     
+     grid-template-columns: 1fr 1fr;
+     color: gray;
+     letter-spacing: .20em;
+ }
+
+ .faq{
+     color: gray;
+    letter-spacing: .20em;
+ }
+
+ .nav{
+     display: flex;
+     justify-content: space-between;
+     letter-spacing: .20em;
+     padding: 4em;
+     color: gray;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .category{
+     padding: 120px;
+     background-color: gray;
+     position: relative;
+
+ }
+
+ .top-heading {
+    font-family: 'Rampage Monoline';
+ }
+
+ .categorybackground{
+    position: absolute;
+     color: #ffffff;
+     left: 30%;
+     text-align: center;   
+ }
+
+.categorybackground p {
+    font-size: .80rem;
+}
+
+.categorybackground h1{
+    font-family: 'Rampage Monoline';
+}
+
+ .p1 {
+     text-align: center;
+     padding: 2em ;
+     margin: 0 2em;
+     color: rgb(144, 142, 142);
+ }
+
+.container3 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 2fr 1fr;
+    height: 60rem;
+    grid-gap: 20px;
+}
+
+.box {
+    display: grid;
+    grid-template-areas: 
+    "apple apple apple apple"
+    "banana mango carrot pear";
+    grid-template-rows:1fr 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.apple {
+    grid-area: apple;
+    background-color: rgb(176, 174, 174);
+    background-image: url(images/picture.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banana {
+    grid-area: banana;
+    background-color: rgb(206, 205, 205);
+}
+
+.mango {
+    grid-area: mango;
+    background-color: rgb(209, 203, 203);
+}
+
+.carrot {
+    grid-area: carrot;
+    background-color: rgb(209, 203, 203);
+}
+
+.pear {
+    grid-area: pear;
+    background-color: rgb(209, 203, 203);
+}
+
+.rightbar h2 {
+    font-size: .90rem;  
+    text-align: center;
+    padding-top: 7em;
+    color: rgb(87, 87, 87);
+    text-decoration: underline;
+    font-family: 'Rampage Monoline';
+    
+}
+
+.rightbar-p {
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    font-size: .80rem;
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(65, 64, 64);
+}
+
+.rightbar-text {
+    font-size: .90rem;
+    padding-top: 1em;
+    text-align: center;
+    color: rgb(144, 142, 142);
+}
+
+.rightbar {
+    background-color: rgb(246, 245, 245);
+}
+
+.bp1 {
+    color: rgb(144, 142, 142);
+}
+
+.detail {
+  display: flex;
+  justify-content: space-between;
+    background-color: rgb(238, 234, 234);
+    align-items: center;
+}
+
+.price {
+    font-size: 1.2rem;
+    padding: .50em;
+    color: rgb(144, 142, 142);
+}
+
+.qtn {
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    color: rgb(144, 142, 142);
+}
+
+.cart {
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    background-color: rgb(42, 41, 41);
+    font-size: .90em;
+    padding: 1em 1em;
+
+    color: white;
+    margin: .90em;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 2em;
+    color: rgb(87, 87, 87);
+    font-size: 2rem;
+    font-family: 'Rampage Monoline';
+}
+
+
+.container5 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 5px;
+justify-content: space-between;
+
+}
+
+
+.image {
+    box-sizing: border-box;
+    width: 220px;
+    height: 25vh;
+    background-color: rgb(195, 192, 192);
+    align-items: center;
+    background-image: url(images/Capture.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.content h4{
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    font-size: .74rem;
+    color: rgb(144, 142, 142);
+}
+
+.content p{
+    color: rgb(144, 142, 142);
+    font-size: .90rem;
+}
+
+.btn{
+    text-align: center;
+    padding: 3em;
+
+}
+
+.btn button {
+    padding: 2em;
+    margin: 1em;
+    letter-spacing: .20em;
+    text-transform: uppercase;
+    font-size: .60rem;
+    background: rgb(210, 209, 209);
+    border: 2px solid white;
+}
+
+.container7 {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.header2 {
+    text-align: center;
+    color: rgb(87, 87, 87);
+    padding: 2em;
+    font-size: 1.3rem;
+    font-family: 'Rampage Monoline';
+}
+
+.bottom-paragraph3 p{
+    letter-spacing: .20em;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: .80rem;
+    /* background-color: grey; */
+    text-align: center;
+    justify-content: center;
+    padding: 2em ;
+}
+
+.sect-five {
+}
+
+.header3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header3 h2 {
+    font-size: 2rem;
+    color: rgb(87, 87, 87);
+    font-family: 'Rampage Monoline';
+}
+
+.header3 p{
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    font-size: .70rem;
+     font-family: 'Rampage Monoline'; 
+}
+
+/* .wrapper2 {
+    border: 1px solid orange;
+    margin-top: 10%;
+}
+
+.harka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.harka-p {
+    background: rgb(189, 189, 189);
+    margin: 5px;
+    margin-bottom: 50px;
+    height: 60vh;
+    width: 280px;
+    padding: 15px;
+}
+
+.harka-p h4{
+    text-align: center;
+    padding-top: 2em;
+    text-decoration: underline;
+    font-family: 'Rampage Monoline';
+    color: rgb(87, 87, 87);
+}
+
+.harka-p p {
+    text-align: center;
+    font-size: .75rem;
+    letter-spacing: .20em;
+    position: relative;
+    text-transform: uppercase;
+} */
+
+
+/* .image2 {
+    box-sizing: border-box;
+    width: 120px;
+    height: 15vh;
+    background-color: green;
+    background-image: url(images/human.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+/* most loved producers */
+
+.box-section{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
+
+.box-container {
+    height: 70vh;
+    width: 50vw;
+    margin-top: 50px;
+    
+
+    position: relative;
+}
+
+.box-circle {
+    background-color: rgb(209, 197, 197);
+    width: 150px;
+    height: 20vh;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    left: 80px;
+    top: -40px ;
+    font-size: 2rem;
+    border-radius: 200px;
+}
+
+.box-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+.boxer{
+    background-color: rgb(186, 184, 184);
+    display: grid;
+    height: 18vh;
+    align-content: center;
+    justify-content: center;
+    /* margin-top: 2em;  */
+    margin: ;
+} 
+
+
+.box1{
+    background-color: rgb(237, 233, 233);
+    height: 25vh;
+    margin-top: 40px;
+
+}
+
+.box1 h5 {
+    padding-top: 6em;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Rampage Monoline';
+    color: rgb(87, 87, 87);
+} 
+
+.box1 p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .80em;
+    letter-spacing: .20em;
+    padding: .80rem;
+} 
+
+.header-text {
+    text-align: center;
+    padding: 1em;
+    font-family: 'Rampage Monoline'; 
+    font-size: 1.5rem;
+    color: rgb(87, 87, 87);
+}
+
+.box-section2 {
+    height: 60vh;
+}
+
+
+.box-circle2 {
+    background-color: grey;
+    width: 100px;
+    height: 13vh;
+    border-radius: 200px;
+} 
+
+.boxer2 {
+    background-color: green;
+    width: 400px;
+    height: 45vh;
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+
+.boxer2 p{
+    text-transform: uppercase;
+    font-size: .70em;
+    padding: 2em;
+    letter-spacing: .20em;
+    color: rgb(87, 87, 87);
+}
+
+
+
+.last-boxer3 {
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.last-side {
+    background-color: rgb(237, 233, 233);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+       
+.last-side p {
+    text-transform: uppercase;
+    padding: 1.5em;
+    font-size: .80em;
+    color: rgb(87, 87, 87);
+    letter-spacing: .20em;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.ending-sect {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    height: 20vh;
+    gap: 20px;
+    font-size: .78em;
+}
+
+.last-boxer3 p{
+    text-transform: uppercase;
+    padding:1.5em;
+    font-size: .80em;
+    color: rgb(87, 87, 87);
+    letter-spacing: .20em;
+   
+}
+
+.subscribe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(237, 235, 235);
+    margin: 1em;
+}
+
+.sub {
+    display: grid;
+    grid-column: 4;
+    padding: 2em;
+    margin: 1em;
+    background-color: rgb(202, 201, 201);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: .80rem;
+    color: rgb(144, 142, 142)
+}
+
+.email {
+    display: grid;
+    grid-column:3;
+    padding:2em;
+    background-color: rgb(231, 222, 222);
+    font-size: .80rem;
+    color: rgb(144, 142, 142);
+    
+}
+
+.newsletter {
+    padding: 1em;
+    font-family: 'Rampage Monoline';
+    font-size: 1.2rem;
+    color: rgb(87, 87, 87)
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* padding: 4em; */
+    justify-content: space-between;
+}
+
+.footer-a {
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+
+.footer-b {
+    background-color: rgb(199, 196, 196);
+    width: 50px;
+    border-radius: 50px;
+    height: 6vh;
+}
+.footer-c {
+    background-color: rgb(199, 196, 196);
+    width: 50px;
+    border-radius: 50px;
+    height: 6vh;
+}
+.footer-d {
+    background-color: rgb(199, 196, 196);
+    width: 50px;
+    border-radius: 50px;
+    height: 6vh;
+}
+.footer-e {
+    background-color: rgb(199, 196, 196);
+    width: 50px;
+    border-radius: 50px;
+    height: 6vh;
+}
+
+.footer-f {
+    display: grid;
+    justify-content: end;
+    color: rgb(144, 142, 142);
+    padding: 1em;
+    
+}
+
+.footer-p {
+    padding: 1em;
+    color: rgb(144, 142, 142);
+
+}
+
+.last-container {
+    /* border: 2px solid orange; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 3em;
+}
+
+.lastbottom {
+    /* border: 2px solid red; */
+    display: grid;
+    justify-items: end;
+}
+
+.endbottom {
+    /* border: 2px solid green; */
+    display: grid;
+    justify-items: end;
+}
+
+.roundshape {
+    background-color: rgb(65, 64, 64);
+    width: 5.2vw;
+    /* max-width: 1000px; */
+    height: 10vh;
+    border-radius: 200px;
+    left: 20%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+
+.last-p {
+    /* border: 2px solid purple; */
+    margin-left: 30px;
+    font: .80rem;
+    width: 80%;
+    font-size: .90rem;
+    color: gray;
+}
+
+.lastgrid {
+    /* border: 2px solid yellow; */
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    background-color: rgb(237, 236, 236);
+    padding: 1.2em;
+
+}
+
+
+
+.roundshape2 {
+    width: 5.2vw;
+    height: 10vh;
+    background-color: rgb(65, 64, 64);
+    border-radius: 200px;
+    position: absolute;
+    left: 50%;
+}
+
+.travel-p p{
+    text-transform: uppercase;
+    font-size: .80rem;
+    letter-spacing: .15em;
+    color: gray;
+}
+
+.read {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.travel-p2 p{
+    text-transform: uppercase;
+    font-size: .80rem;
+    letter-spacing: .15em;
+    color: gray;
+}
